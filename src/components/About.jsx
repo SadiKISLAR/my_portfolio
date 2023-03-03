@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
     return (
         <div className='about'>
-            <div className="image"></div>
+            <div className="image"> <img src="./" alt="picture" /></div>
             <div className="text">
                 <h1>Şadi KIŞLAR</h1>
                 <h2>Fullstack Developer</h2>
