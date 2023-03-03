@@ -1,9 +1,12 @@
-import React from 'react'
+import React from 'react';
+import MyPhoto from '../assets/images/picture.jpg'
 
 const About = () => {
     return (
         <div className='about'>
-            <div className="image"> <img src="../assets/images/picture.jpg" alt="picture" /></div>
+            <div className="image">
+                <img src={MyPhoto} alt="" className='about-img' />
+            </div>
             <div className="text">
                 <h1>Şadi KIŞLAR</h1>
                 <h2>Fullstack Developer</h2>

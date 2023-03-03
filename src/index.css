@@ -50,6 +50,11 @@ li {
   width: 40%;
   border: 2px solid red;
 }
+.about-img {
+  width: auto;
+  height: 100%;
+
+}
 
 .text {
   width: 60%;
