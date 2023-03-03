@@ -1,13 +1,91 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* ----------------------- navbar ---------------*/
+.navbar {
+  height: 65px;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 60px 0px 60px;
+  font-size: x-large;
+  text-align: center;}
+
+.navbar ul{
+  margin-right: 3rem;
+  display: flex;
+  margin: auto;
+    
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+li {
+  width: 5rem;
+  list-style: none;
+  margin-right: 5px;
 }
+
+.menu {
+  display: flex;
+ justify-content: center; 
+}
+
+.name {
+  display: flex;
+  align-items: center;
+}
+
+
+/* ----------------------- about ---------------*/
+
+.about {
+  height: 550px;
+  background-color: bisque;
+  display: flex;
+
+}
+
+.image {
+  width: 40%;
+  border: 2px solid red;
+}
+
+.text {
+  width: 60%;
+  border: 2px solid black;
+  align-items: center;
+  display: inline-block;
+  align-items: center;
+
+}
+ 
+
+/* ----------------------- skills ---------------*/
+.skills {
+  height: 550px;
+  background-color: blueviolet;
+}
+
+
+/* ----------------------- projects ---------------*/
+.projects {
+  height: 800px;
+  background-color: cadetblue;
+}
+
+
+/* ----------------------- contacts ---------------*/
+.contacts {
+  height: 550px;
+  background-color: chartreuse;
+}
+
+
+/* ----------------------- footer ---------------*/
+
+.footer {
+  height: 50px;
+  background-color: darkgray;
+}
+
