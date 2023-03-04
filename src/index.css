@@ -80,20 +80,28 @@ li {
   display: flex;
   flex-wrap: wrap;
   gap: 2rem ;
+  justify-content: center;
 }
 .technology__box {
   display: flex ;
   justify-content: center;
+}
+.skillsText {
+  padding-top: 2%;
+  text-align: center;
 }
 
 
 
 
 /* ----------------------- projects ---------------*/
-.projects {
-  height: 800px;
-  background-color: cadetblue;
+
+ .project {
+  width: 15%;
+  height: 20%;
+  border: 2px solid darkblue;
 }
+
 
 
 /* ----------------------- contacts ---------------*/
