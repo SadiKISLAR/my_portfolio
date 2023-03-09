@@ -1,0 +1,13 @@
+.projects {
+  height: 800px;
+  background-color: cadetblue;
+  display: flex ;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  width: 15%;
+  height: 20%;
+  border: 2px solid darkblue;
+}
