@@ -2,7 +2,7 @@ import React from 'react';
 import MyPhoto from '../../assets/images/bg.png'
 import "./about.css"
 
-const About = () => {
+const About = ({ darkMode }) => {
     return (
         <div className="i">
             <div className="i-right">
@@ -18,7 +18,7 @@ const About = () => {
                             <div className="i-title-item">React.js Developer</div>
                             <div className="i-title-item">Python-Django Developer</div>
                             <div className="i-title-item">Fullstack Developer</div>
-                            <div className="i-title-item">Web Developer</div>
+
                         </div>
                     </div>
                     <p className="i-desc">
@@ -31,9 +31,11 @@ const About = () => {
                             target="_blank"
                             rel="noreferrer"
                         >
+
+                            <p>sfdsdffd</p>
                             <i
                                 className="fa-brands fa-linkedin-in"
-                                style={{ color: "#005c53" }}
+                                style={{ color: 'black' }}
                             ></i>
                         </a>
                         <a
@@ -41,13 +43,16 @@ const About = () => {
                             target="_blank"
                             rel="noreferrer"
                         >
+                            <p>gitgub</p>
                             <i
                                 className="fa-brands fa-github"
-                                style={{ color: "#005c53" }}
+                                style={{
+                                    color: "#005c53"
+                                }}
                             ></i>
                         </a>
                         <a
-                            href=" https://wa.me/+905346158014"
+                            href=" https://wa.me/+905416121683"
                             target="_blank"
                             rel="noreferrer"
                         >

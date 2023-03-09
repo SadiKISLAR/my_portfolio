@@ -39,11 +39,11 @@
 
 .i-title-wrapper {
   height: 100%;
-  animation: move 8s ease-in-out infinite alternate;
+  animation: move 5s ease-in-out infinite alternate;
 }
 
 @keyframes move {
-  50% {
+50% {
     transform: translateY(-50px);
   }
 
@@ -118,7 +118,10 @@
   }
 
   .social {
+    width: 100px;
+    height: 100px;
     padding-top: 10px;
+    border: 20px solid red;
   }
 
   .i-img {
