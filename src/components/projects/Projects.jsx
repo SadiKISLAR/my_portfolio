@@ -2,6 +2,8 @@ import React from 'react'
 import "./projects.css"
 import movie_app from "../../assets/projects/movie-app.gif"
 import recipe from "../../assets/projects/recipe app.gif"
+import random from "../../assets/projects/random user.gif"
+import tour from "../../assets/projects/tour places.gif"
 
 const Projects = () => {
     return (
@@ -15,11 +17,21 @@ const Projects = () => {
             <div className="project p2">
                 <a href="https://github.com/SadiKISLAR/recipe-app-with-react"
                     target="_blank">
-                    <img src={recipe} alt="movie-app" width="100%" height="100%" />
+                    <img src={recipe} alt="recipe-app" width="100%" height="100%" />
                 </a>
             </div>
-            <div className="project p3"></div>
-            <div className="project p4"></div>
+            <div className="project p3">
+                <a href="https://github.com/SadiKISLAR/random-user-with-react"
+                    target="_blank">
+                    <img src={random} alt="random-user" width="100%" height="100%" />
+                </a>
+            </div>
+            <div className="project p4">
+                <a href="https://github.com/SadiKISLAR/tour-pages"
+                    target="_blank">
+                    <img src={random} alt="tour-pages" width="100%" height="100%" />
+                </a>
+            </div>
             <div className="project p5"></div>
             <div className="project p6"></div>
             <div className="project p7"></div>
