@@ -3,20 +3,60 @@ import MyPhoto from '../assets/images/bg.png'
 
 const About = () => {
     return (
-        <div className='about'>
-            <div className="image">
-                <img src={MyPhoto} alt="" className='about-img' />
+        <div className="i">
+            <div className="i-right">
+                <div className="i-bg"></div>
+                <img src={MyPhoto} alt="" className="i-img" />
             </div>
-            <div className="text">
-                <h1>Şadi KIŞLAR</h1>
-                <br />
-                <h2>Fullstack Developer</h2>
-                <br />
-                <p>Having 4+ years experienced in IT and 1+ an expert front-end developer, interested in writing codes, skilled at developing complex solutions, creating responsive designs, possessing strong creative thinking skills, high energy and integrity.
-                    Ability to create algorithms effectively, and interact positively and communicate appropriately with team members. Quickly grasp new technologies and concepts to develop innovative and creative solutions to problems.
-                    Always eager to learn various technologies, tools and libraries. Especially interested in the Frontend / Web Development, HTML, CSS, JS, React. Excited to learn new things and improve, lifetime student.</p></div>
-        </div>
+            <div className="i-left">
+                <div className="i-left-wrapper">
+                    <h2 className="i-intro">Hello, My name is</h2>
+                    <h1 className="i-name">Şadi KIŞLAR</h1>
+                    <div className="i-title">
+                        <div className="i-title-wrapper">
+                            <div className="i-title-item">React.js Developer</div>
+                            <div className="i-title-item">Python-Django Developer</div>
+                            <div className="i-title-item">Fullstack Developer</div>
+                            <div className="i-title-item">Web Developer</div>
+                        </div>
+                    </div>
+                    <p className="i-desc">
+                        I develop services for customers of all sizes, specializing inreting
+                        stylish,modern websites, web services and online stores.
+                    </p>
+                    <div className="social">
+                        <a
+                            href="https://www.linkedin.com/in/sezginakgul/"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <i
+                                className="fa-brands fa-linkedin-in"
+                                style={{ color: "#005c53" }}
+                            ></i>
+                        </a>
+                        <a
+                            href="https://github.com/sezginakgul"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
+                            <i
+                                className="fa-brands fa-github"
+                                style={{ color: "#005c53" }}
+                            ></i>
+                        </a>
+                        <a
+                            href=" https://wa.me/+905346158014"
+                            target="_blank"
+                            rel="noreferrer"
+                        >
 
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
     )
 }
 
