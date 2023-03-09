@@ -1,5 +1,5 @@
 import React from 'react';
-import MyPhoto from '../assets/images/bg.png'
+import MyPhoto from '../../assets/images/bg.png'
 
 const About = () => {
     return (
@@ -26,7 +26,7 @@ const About = () => {
                     </p>
                     <div className="social">
                         <a
-                            href="https://www.linkedin.com/in/sezginakgul/"
+                            href="https://www.linkedin.com/in/%C5%9Fadiki%C5%9Flar/"
                             target="_blank"
                             rel="noreferrer"
                         >
@@ -36,7 +36,7 @@ const About = () => {
                             ></i>
                         </a>
                         <a
-                            href="https://github.com/sezginakgul"
+                            href="https://github.com/SadiKISLAR"
                             target="_blank"
                             rel="noreferrer"
                         >
