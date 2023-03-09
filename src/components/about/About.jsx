@@ -32,7 +32,7 @@ const About = ({ darkMode }) => {
                             rel="noreferrer"
                         >
 
-                            <p>sfdsdffd</p>
+                            <p>linkedin</p>
                             <i
                                 className="fa-brands fa-linkedin-in"
                                 style={{ color: 'black' }}

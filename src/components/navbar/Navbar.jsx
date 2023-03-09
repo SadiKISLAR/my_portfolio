@@ -8,8 +8,8 @@ const Navbar = () => {
             <div className='name'> -Şadi KIŞLAR- </div>
             <div className='menu'>
                 <ul>
-                    <li> <a href="#">About</a> </li>
-                    <li> <a href="#"></a> Skills</li>
+                    <li> <a href="../about/About.jsx">About</a> </li>
+                    <li> <a href="../skills/Skills.jsx"></a> Skills</li>
                     <li> <a href="#"></a> Projects</li>
                     <li> <a href="#"></a> Contact</li>
                 </ul>
