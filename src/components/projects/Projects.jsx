@@ -1,6 +1,7 @@
 import React from 'react'
 import "./projects.css"
 import movie_app from "../../assets/projects/movie-app.gif"
+import recipe from "../../assets/projects/recipe app.gif"
 
 const Projects = () => {
     return (
@@ -12,9 +13,9 @@ const Projects = () => {
                 </a>
             </div>
             <div className="project p2">
-                <a href="https://github.com/SadiKISLAR/movie-app-with-react"
+                <a href="https://github.com/SadiKISLAR/recipe-app-with-react"
                     target="_blank">
-                    <img src={movie_app} alt="movie-app" width="100%" height="100%" />
+                    <img src={recipe} alt="movie-app" width="100%" height="100%" />
                 </a>
             </div>
             <div className="project p3"></div>
