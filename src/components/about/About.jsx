@@ -2,7 +2,7 @@ import React from 'react';
 import MyPhoto from '../../assets/images/bg.png'
 import "./about.css"
 
-const About = ({ darkMode }) => {
+const About = () => {
     return (
         <div className="i">
             <div className="i-right">
