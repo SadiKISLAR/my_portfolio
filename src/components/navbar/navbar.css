@@ -22,7 +22,7 @@ li {
 
 .menu {
   display: flex;
- justify-content: center; 
+  justify-content: center; 
 }
 
 .name {
