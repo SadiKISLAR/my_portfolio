@@ -32,7 +32,7 @@ const About = () => {
                             rel="noreferrer"
                         >
 
-                            <p>linkedin</p>
+
                             <i
                                 className="fa-brands fa-linkedin-in"
                                 style={{ color: 'black' }}
@@ -43,7 +43,7 @@ const About = () => {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            <p>gitgub</p>
+
                             <i
                                 className="fa-brands fa-github"
                                 style={{

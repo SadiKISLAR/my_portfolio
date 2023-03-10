@@ -10,8 +10,8 @@ const Navbar = () => {
                 <ul>
                     <li> <a href="#About">About</a> </li>
                     <li> <a href="#Skills"></a> Skills</li>
-                    <li> <a href="#"></a> Projects</li>
-                    <li> <a href="#"></a> Contact</li>
+                    <li> <a href="#Projects"></a> Projects</li>
+                    <li> <a href="#Contacts"></a> Contact</li>
                 </ul>
             </div>
 
