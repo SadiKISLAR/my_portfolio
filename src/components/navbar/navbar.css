@@ -1,11 +1,16 @@
 .navbar {
+  width: 100%;
   height: 65px;
-  background-color: aqua;
+  background-color:rgba(242, 242, 242, 0.355);
   display: flex;
   justify-content: space-between;
   padding: 0px 60px 0px 60px;
   font-size: x-large;
-  text-align: center;}
+  text-align: center;
+  backdrop-filter: blur(4px);
+  position: fixed;
+  z-index: 99;
+}
 
 .navbar ul{
   margin-right: 3rem;
@@ -15,14 +20,17 @@
 }
 
 li {
-  width: 5rem;
+  width: 6rem;
   list-style: none;
   margin-right: 5px;
+  flex-direction: column;
+  cursor: pointer;
+  position: relative;
 }
 
 .menu {
   display: flex;
-  justify-content: center; 
+ justify-content: center; 
 }
 
 .name {
