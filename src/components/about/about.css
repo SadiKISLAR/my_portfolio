@@ -3,17 +3,16 @@
   height: 109vh;
   padding-top: 4rem;
 }
+.i-right {
+  flex: 1;
+  position: relative;
+}
 
 .i-left {
   flex: 1;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.i-right {
-  flex: 1;
-  position: relative;
 }
 
 .i-left-wrapper {
