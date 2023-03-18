@@ -6,17 +6,32 @@ import "./navbar.css"
 
 
 const Navbar = () => {
+    let navLinks = ["home", "about", "skills", "projects", "contact"];
+
     return (
         <div className='navbar'>
             <div className='name'> -Şadi KIŞLAR- </div>
             <div className='menu'>
-                <ul>
-                    <li> <link rel="stylesheet" href="about" /> About </li>
-                    <li><a href={Skills}>asdkşl</a></li>
-                    <li> <link rel="stylesheet" href="Skills" />Skills </li>
-                    <li> <link rel="stylesheet" href="skills" />Skills </li>
-                    <li> <Link to={Skills}></Link> Projects</li>
-                    <li> <link to="contacts"></link> Contact</li>
+                <ul className="navbar-links app__flex">
+                    {navLinks.map((item, index) => (
+                        <li
+                            className={"app_flex"}
+                            key={index}
+                        // onClick={() => setIsActive(index)}
+                        >
+                            <Link
+                                className="link"
+                                to={item}
+                                spy={true}
+                                smooth={true}
+                                offset={-200}
+                                duration={300}
+                            >
+                                {item}
+                                <div />
+                            </Link>
+                        </li>
+                    ))}
                 </ul>
             </div>
 
