@@ -1,10 +1,11 @@
 import './App.css';
-import About from './components/about/About';
-import Contacts from './components/contacts/Contacts';
-import Footer from './components/footer/Footer';
-import Navbar from './components/navbar/Navbar';
-import Projects from './components/projects/Projects';
-import Skills from './components/skills/Skills';
+import About from './components/About/About';
+import Certificates from './components/Certificates/Certificates';
+import Contacts from './components/Contacts/Contacts';
+import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar';
+import Projects from './components/Projects/Projects';
+import Skills from './components/Skills/Skills';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <Certificates />
       <Contacts />
       <Footer />
     </div>

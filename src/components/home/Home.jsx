@@ -1,8 +1,8 @@
 import React from 'react'
 import About from '../about/About'
 import Contacts from '../contacts/Contacts'
-import Projects from '../projects/Projects'
-import Skills from '../skills/Skills'
+import Projects from '../Projects/Projects'
+import Skills from '../Skills/Skills'
 
 const Home = () => {
     return (

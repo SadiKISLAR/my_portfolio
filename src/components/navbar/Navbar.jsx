@@ -1,5 +1,5 @@
 import React from 'react'
-import Skills from '../skills/Skills'
+import Skills from '../Skills/Skills'
 import { Link } from "react-scroll";
 import "./navbar.css"
 
