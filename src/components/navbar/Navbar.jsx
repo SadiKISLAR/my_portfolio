@@ -1,12 +1,12 @@
 import React from 'react'
-import Skills from '../Skills/Skills'
+// import Skills from '../Skills/Skills'
 import { Link } from "react-scroll";
 import "./navbar.css"
 
 
 
 const Navbar = () => {
-    let navLinks = ["home", "about", "skills", "projects", "contact"];
+    let navLinks = ["home", "about", "skills", "projects", "certificates", "contact"];
 
     return (
         <div className='navbar'>

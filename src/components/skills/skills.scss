@@ -1,0 +1,66 @@
+.app__skills {
+  text-align: center;
+  margin: 4rem auto;
+  width: 100%;
+  display: flex;
+
+  .app__skills-logos {
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 60%;
+    margin: 0 auto;
+    max-width: 45rem;
+    min-width: 20rem;
+    
+
+    .app__skills-logo {
+      width: 20%;
+      max-width: 6rem;
+      min-width: 5rem;
+
+      .img-div {
+        flex-direction: column;
+        height: 5rem;
+        border-radius: 10px;
+        padding: 5px;
+
+        img {
+          width: 90%;
+          transition: all 0.5s;
+          cursor: pointer;
+        }
+
+        .logo-name {
+          position: absolute;
+          opacity: 0;
+          transition: all 0.5s;
+          color: inherit;
+          font-weight: 600;
+          font-size: 18px;
+          cursor: pointer;
+          user-select: none;
+        }
+
+        &:hover .logo-name {
+          opacity: 1;
+        }
+
+        &:hover img {
+          opacity: 0.3;
+          scale: 0.9;
+        }
+      }
+    }
+  }
+}
+.app__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.app__head {
+  font-size: 32px;
+  font-weight: 500;
+  padding-bottom: 2rem;
+  text-align: center;
+}
