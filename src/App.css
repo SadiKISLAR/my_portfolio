@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  background-color: var(--primary-color);
+  font-family: var(--font-base);
+  font-weight: 500;
+  transition: all 0.5s;
 }
 
 .App-logo {
@@ -28,11 +32,16 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.app__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+.app__head {
+  font-size: 32px;
+  font-weight: 500;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
