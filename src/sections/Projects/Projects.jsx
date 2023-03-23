@@ -8,7 +8,7 @@ import flag from "../../assets/projects/flag app.gif"
 
 const Projects = () => {
     return (
-        <div className='projects'>
+        <div id="projects" className='projects'>
             <div className="project p1">
                 <a href="https://github.com/SadiKISLAR/movie-app-with-react"
                     target="_blank">

@@ -9,7 +9,9 @@ const Skills = () => {
             <h2 className="app__head">My Skills</h2>
             <motion.div
                 className="app__skills-logos app__flex"
+                initial={{ opacity: 0 }}
                 whileInView={{ scale: [0, 1] }}
+                animate={{ opacity: 1 }}
                 transition={{ duration: 1, ease: "easeInOut" }}
             >
                 {imageObj.map((logo, index) => (

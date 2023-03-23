@@ -48,7 +48,7 @@ const Contacts = () => {
             );
     };
     return (
-        <div className="c">
+        <div id="contacts" className="c">
             <div className="c-bg"></div>
             <div className="c-wrapper">
                 <div className="c-left">
@@ -63,7 +63,7 @@ const Contacts = () => {
                 <div className="c-right">
                     <p className="c-desc">
                         <b>What do you want?</b> Get in touch. Always available for
-                        freelancing if the right project comes along. me.
+                        freelancing if the right project comes along me.
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input
