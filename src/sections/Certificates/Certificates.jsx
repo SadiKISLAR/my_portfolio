@@ -8,7 +8,7 @@ import { FcNext } from "react-icons/fc";
 import { FcPrevious } from "react-icons/fc";
 
 const Certificates = () => {
-    const [current, setCurrent] = useState(5);
+    const [current, setCurrent] = useState(0);
     // const { theme } = useThemeContext();
 
     const handlePrev = () => {
@@ -26,7 +26,7 @@ const Certificates = () => {
     return (
         <div className="certificates-container">
             <div id="certificates" className="app__certificates">
-                <h2 style={{ textAlign: "center", padding: "1rem 0" }}>-Certificates-</h2>
+                <h2 style={{ textAlign: "center", padding: "1rem 0" }}>-My Certificates-</h2>
                 <motion.div
                     className="app__certificates-contain"
                     whileInView={{ opacity: [0, 1], x: [-200, 0] }}

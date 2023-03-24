@@ -6,7 +6,6 @@ import backend from "./backend.png"
 
 const certificatesList = [
     { name: "frontend", img: frontend },
-    { name: "react", img: react },
     { name: "html_css", img: html_css },
     { name: "javascript", img: javascript },
     { name: "react", img: react },

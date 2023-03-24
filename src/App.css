@@ -4,6 +4,7 @@
   font-family: var(--font-base);
   font-weight: 500;
   transition: all 0.5s;
+  background-color: antiquewhite;
 }
 
 .App-logo {
