@@ -14,18 +14,21 @@ const Projects = () => {
                     target="_blank">
                     <img src={movie_app} alt="movie-app" width="100%" height="100%" />
                 </a>
+                <h5 style={{ textAlign: 'center' }}>Movie App</h5>
             </div>
             <div className="project p2">
                 <a href="https://github.com/SadiKISLAR/recipe-app-with-react"
                     target="_blank">
                     <img src={recipe} alt="recipe-app" width="100%" height="100%" />
                 </a>
+                <h5 style={{ textAlign: 'center' }}>Recipe App</h5>
             </div>
             <div className="project p3">
                 <a href="https://github.com/SadiKISLAR/random-user-with-react"
                     target="_blank">
                     <img src={random} alt="random-user" width="100%" height="100%" />
                 </a>
+                <h5 style={{ textAlign: 'center' }}>Random User</h5>
             </div>
             <div className="project p4">
                 <a href="https://github.com/SadiKISLAR/tour-pages"
@@ -38,6 +41,7 @@ const Projects = () => {
                     target="_blank">
                     <img src={flag} alt="countries" width="100%" height="100%" />
                 </a>
+                <h5 style={{ textAlign: 'center' }}>Country Flags</h5>
             </div>
             <div className="project p6"></div>
             <div className="project p7"></div>

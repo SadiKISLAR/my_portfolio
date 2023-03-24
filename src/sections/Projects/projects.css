@@ -1,7 +1,7 @@
 .projects {
   width: 100%;
 
-  background-color: cadetblue;
+  background-color: #E6DFD9;
   padding: 2rem;
   display: flex;
   flex-wrap: wrap;
@@ -12,5 +12,8 @@
 .project {
   width: 30%;
   height: 30%;
-  border: 2px solid darkblue;
+}
+
+h5 {
+
 }

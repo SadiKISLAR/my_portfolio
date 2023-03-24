@@ -4,7 +4,7 @@ import Navbar from './components/Navbar/Navbar';
 
 import About from './sections/About/About';
 import Certificates from './sections/Certificates/Certificates';
-import Contacts from './sections/Contacts/Contacts';
+import Contact from './sections/Contact/Contact';
 import Projects from './sections/Projects/Projects';
 import Skills from './sections/Skills/Skills';
 
@@ -16,7 +16,7 @@ function App() {
       <Skills />
       <Projects />
       <Certificates />
-      <Contacts />
+      <Contact />
       <Footer />
     </div>
   );

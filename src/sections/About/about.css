@@ -2,6 +2,7 @@
   display: flex;
   height: 109vh;
   padding-top: 4rem;
+  background-color: #729599;
 }
 .i-right {
   flex: 1;

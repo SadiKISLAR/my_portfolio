@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import "./contacts.css";
+import "./contact.css";
 import emailjs from "@emailjs/browser";
 import {
     ErrorEmailToastDark,
@@ -8,7 +8,7 @@ import {
     SendEmailToastLight,
 } from "../../utils/customToastify";
 
-const Contacts = () => {
+const Contact = () => {
     const initialState = {
         user_name: "",
         user_subject: "",
@@ -48,7 +48,7 @@ const Contacts = () => {
             );
     };
     return (
-        <div id="contacts" className="c">
+        <div id="contact" className="c">
             <div className="c-bg"></div>
             <div className="c-wrapper">
                 <div className="c-left">
@@ -123,4 +123,4 @@ const Contacts = () => {
     )
 }
 
-export default Contacts
+export default Contact
