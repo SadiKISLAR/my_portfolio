@@ -10,9 +10,9 @@ const Skills = () => {
             <motion.div
                 className="app__skills-logos app__flex"
                 initial={{ opacity: 0 }}
-                whileInView={{ scale: [0, 1] }}
+                whileInView={{ scale: [0, 1.5, 0.2, 1] }}
                 animate={{ opacity: 1 }}
-                transition={{ duration: 1, ease: "easeInOut" }}
+                transition={{ duration: 2, ease: "easeInOut" }}
             >
                 {imageObj.map((logo, index) => (
                     <motion.div className="app__skills-logo" key={index}>
