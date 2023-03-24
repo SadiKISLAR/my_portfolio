@@ -5,7 +5,7 @@ import "./navbar.css"
 
 
 const Navbar = () => {
-    let navLinks = ["about", "skills", "projects", "certificates", "contacts"];
+    let navLinks = ["about", "skills", "projects", "certificates", "contact"];
 
     return (
         <div className='navbar'>

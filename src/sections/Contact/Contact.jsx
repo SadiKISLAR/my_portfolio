@@ -28,8 +28,8 @@ const Contact = () => {
         e.preventDefault();
         emailjs
             .sendForm(
-                "service_ihk4qal",
-                "template_9rdhb5g",
+                "service_jg6fgmp",
+                "template_vl9uckh",
                 formRef.current,
                 "kvpaxHFcI6rNUTJwQ"
             )

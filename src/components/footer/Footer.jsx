@@ -12,18 +12,20 @@ const Footer = () => {
         >
             <ul className="app__footer-social app__flex">
                 <li>
-                    <a href="https://www.linkedin.com/in/sadikislar/">
+                    <a href="https://www.linkedin.com/in/sadikislar/"
+                        target="_blank">
                         <FaLinkedinIn />
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/SadiKISLAR">
+                    <a href="https://github.com/SadiKISLAR"
+                        target="_blank">
                         <FaGithub />
                     </a>
                 </li>
             </ul>
 
-            <div>© 2023 Sh@dy</div>
+            <div style={{ paddingRight: "20rem" }}>© 2023 All Rights Reserved by Sh@dy</div>
         </footer>
     );
 };
